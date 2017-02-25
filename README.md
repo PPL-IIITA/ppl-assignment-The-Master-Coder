@@ -2,7 +2,12 @@
 ppl-assignment-The-Master-Coder created by GitHub Classroom <br />
 # Abhishek Pasi  (**ICM2015002**)
 
-##For Linux:
+##Build System:
+>ubuntu 16.04 LTS
+>OS type: 64 bit
+
+##Command for Terminal in Linux:
+Note: All the codes submitted are tested on Python 2.7.12
 >python q1_driver.py      (in folder q1, for Question 1)<br />
 >python q2_driver.py      (in folder q2, for Question 2)
 
