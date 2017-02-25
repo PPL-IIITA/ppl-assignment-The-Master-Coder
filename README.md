@@ -5,3 +5,6 @@ ppl-assignment-The-Master-Coder created by GitHub Classroom <br />
 ##For Linux:
 >python q1_driver.py      (in folder q1, for Question 1)<br />
 >python q2_driver.py      (in folder q2, for Question 2)
+
+##Class Diagrams:
+>The page number 'x' in the file classDiagrams.pdf corresponds to the class diagram of the question number 'x'
