@@ -8,3 +8,6 @@ ppl-assignment-The-Master-Coder created by GitHub Classroom <br />
 
 ##Class Diagrams:
 >The page number 'x' in the file classDiagrams.pdf corresponds to the class diagram of the question number 'x'
+
+##Documentation:
+>Documentation of each question is done separately and can be found in the respective folder of the question
