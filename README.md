@@ -16,3 +16,8 @@ Note: All the codes submitted are tested on Python 2.7.12 only
 
 ##Documentation:
 >Documentation of each question is done separately and can be found in the respective folder of the question
+
+##Tools used:
+>python 2.7.12 for cod2
+>epydoc and Latex for Documentation
+>Class diagrams made manually using StarUML
