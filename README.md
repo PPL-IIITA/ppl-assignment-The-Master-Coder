@@ -12,7 +12,8 @@ ppl-assignment-The-Master-Coder created by GitHub Classroom <br />
 ## Command for Terminal in Linux:
 Note: All the codes submitted are tested on Python 2.7.12 only
 >python q1_driver.py      (in folder q1, for Question 1)<br />
->python q2_driver.py      (in folder q2, for Question 2)
+>python q2_driver.py      (in folder q2, for Question 2)<br />
+>python q3_driver.py      (in folder q3, for Question 3)
 
 ## Class Diagrams:
 >The page number 'x' in the file classDiagrams.pdf corresponds to the class diagram of the question number 'x'
