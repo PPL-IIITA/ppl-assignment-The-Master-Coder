@@ -1,5 +1,5 @@
 class Gift:
-	'gift class for all essential gifts'
+	'gift class for all gifts'
 
 	def __init__(self, name, price, value, type):
 		'constructor'
