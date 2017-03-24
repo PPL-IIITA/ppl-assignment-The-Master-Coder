@@ -184,6 +184,7 @@ def newallocate(B, G, C, k):
 				c.girl.bfname = ''
 				c.girl.happiness = 0
 				R = R+[c]
+				break
 
 	for r in R:
 		C.remove(r)
