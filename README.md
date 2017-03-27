@@ -2,7 +2,8 @@
 ppl-assignment-The-Master-Coder created by GitHub Classroom <br />
 # Abhishek Pasi  (**ICM2015002**)
 
-<img src="https://img.shields.io/badge/language-Python 2.7.12-brightgreen.svg"/>
+<img src="https://img.shields.io/badge/language-Python 2.7.12-brightgreen.svg"/> <img src="https://raw.githubusercontent.com/rhoit/mode-icons/dump/icons/python.png"/>
+
 ## Build System:
 >ubuntu 16.04 LTS <br />
 >OS type: 64 bit
