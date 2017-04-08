@@ -183,7 +183,7 @@ def hp_geek(GFT, c):
 	c.set_compatibility()
 
 def print_gifts(C):
-	'prints all the Gifts gifted by Boyfriend to her Girlfriend for all the Couples'
+	'prints all the Gifts gifted by Boyfriend to his Girlfriend for all the Couples'
 	for c in C:
 		print 'Gifts given from Boy:  ' + c.boy.name + '  to Girl:  ' + c.girl.name + ':'
 		for g in c.GFT:
