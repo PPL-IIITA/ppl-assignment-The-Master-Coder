@@ -1,0 +1,215 @@
+Requirements:
+
+1. python 2.7.12 installed in terminal.
+
+---------------------------------------------------------
+
+Question 1:
+
+INPUT:
+No input required.
+
+OUTPUT:
+Couples formed on Valentines day (without using Inheritance).
+
+Process to run program:
+1. Open terminal in the folder named "q1".
+2. Use command (in terminal):
+	python q1_driver.py
+
+---------------------------------------------------------
+
+Question 2:
+
+INPUT:
+No input required.
+
+Internal processes:
+k is chosen randomly from the total number of couples formed.
+
+OUTPUT:
+Couples formed on Valentines day (without using Inheritance).
+All gift exchanges between all the couples.
+k best happiest couples.
+k best compatible couples.
+
+Process to run program:
+1. Open terminal in the folder named "q2".
+2. Use command (in terminal):
+	python q2_driver.py
+
+---------------------------------------------------------
+
+Question 3:
+
+INPUT:
+same as Question 2.
+
+Internal processes:
+same as Question 2, but done using inheritance.
+
+OUTPUT:
+same as Question 2.
+
+Process to run program:
+1. Open terminal in the folder named "q3".
+2. Use command (in terminal):
+	python q3_driver.py
+
+---------------------------------------------------------
+
+Question 4:
+
+INPUT:
+No input required.
+
+Internal processes:
+Value of k is chosen randomly from the total number of couples formed.
+
+OUTPUT:
+Couples formed on Valentines day.
+k least happy couples.
+Couples remaining after breakups.
+New couples formed after breakups.
+
+Process to run program:
+1. Open terminal in the folder named "q4".
+2. Use command (in terminal):
+	python q4_driver.py
+
+---------------------------------------------------------
+
+Question 5:
+
+INPUT:
+No input required.
+
+Internal processes:
+Value of k is chosen randomly from the range of total number of couples formed.
+
+OUTPUT:
+Couples formed on Valentines day (according to given new mechanism).
+k best happiest couples.
+
+Process to run program:
+1. Open terminal in the folder named "q5".
+2. Use command (in terminal):
+	python q5_driver.py
+
+---------------------------------------------------------
+
+Question 6:
+
+INPUT:
+No input required.
+
+Internal processes:
+Value of t is randomly chosen from a range.
+
+OUTPUT:
+Couples formed on Valentines day.
+Value of t.
+
+The below three outputs happens t times:
+	Couples having happiness less than t.
+	Couples remaining after breakups.
+	New couples formed after breakups.
+
+Process to run program:
+1. Open terminal in the folder named "q6".
+2. Use command (in terminal):
+	python q6_driver.py
+
+---------------------------------------------------------
+
+Question 7:
+
+INPUT:
+Input is required.
+Allocator method implementation from a given list of three choices.
+
+Internal processes:
+Value of k is chosen randomly from the range of total number of boys.
+k boys are selected randomly from the list of all boys.
+
+OUTPUT:
+Randomly selected list of k boys.
+List of options to choose input from , for Allocator method implementation.
+Randomly selected list of k boys along with the name of their girlfriends, if any.
+
+
+Process to run program:
+1. Open terminal in the folder named "q7".
+2. Use command (in terminal):
+	python q7_driver.py
+
+---------------------------------------------------------
+
+Question 8:
+
+INPUT:
+Input is required.
+Gifting method implementation from a given list of two choices.
+
+Internal processes:
+Value of k is chosen randomly from the range of total number of couples formed.
+
+OUTPUT:
+Couples formed on Valentines day.
+All gift exchanges between all the couples according to chosen implementation.
+k best happiest couples.
+k best compatible couples.
+
+Process to run program:
+1. Open terminal in the folder named "q8".
+2. Use command (in terminal):
+	python q8_driver.py
+
+---------------------------------------------------------
+
+Question 9:
+
+INPUT:
+No input required.
+
+Internal processes:
+Value of k is chosen randomly from the range of total number of a given type of items, appropriately(for example a list of boys or a list of gifts or a list of couples).
+Girls chooses a boy as boyfriend from the list of k best boys (having higher value of girlfriend budget).
+Boys picks up a gift from the list of k best gifts (having higher gift value).
+Both the above lists are generated using the "best_k" method defined in the file "q9_driver.py".
+
+OUTPUT:
+Couples formed on Valentines day.
+All gift exchanges between all the couples.
+k best happiest couples.
+k best compatible couples.
+
+Process to run program:
+1. Open terminal in the folder named "q9".
+2. Use command (in terminal):
+	python q9_driver.py
+
+---------------------------------------------------------
+
+Question 10:
+
+INPUT:
+No input required.
+
+Internal processes:
+Value of k is chosen randomly from the range of total number of items of a given type, appropriately(for example a list of boys or a list of gifts or a list of couples).
+Value of n is taken as the total number of items of a given type, appropriately.
+Girls chooses a boy as boyfriend from the list of k random boys taken from n best boys(having higher value of girlfriend budget).
+Boys picks up a gift from the list of k random gifts taken from n best best gifts (having higher gift value).
+Both the above lists are generated using the "random_k" method defined in the file "q10_driver.py".
+
+OUTPUT:
+Couples formed on Valentines day.
+All gift exchanges between all the couples.
+k best happiest couples.
+k best compatible couples.
+
+Process to run program:
+1. Open terminal in the folder named "q10".
+2. Use command (in terminal):
+	python q10_driver.py

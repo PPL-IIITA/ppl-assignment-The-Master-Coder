@@ -1,0 +1,7 @@
+All the required data files are generated (with random data) using the function named "utility" defined in the file named "utility.py" which can be found in every question folder.
+
+All the data files are generated during the runtime of the program.
+
+With each run of the program, data files with new data are generated.
+
+Python codes are compiled and executed simultaneously using a single command (given in "how_to_execute.txt" file), so no need to first compile the program and then run it.

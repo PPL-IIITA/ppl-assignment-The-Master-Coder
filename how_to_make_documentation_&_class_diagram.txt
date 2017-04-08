@@ -1,0 +1,34 @@
+Documentation:
+
+Documentation is created using "Epydoc" version 3.0.1, which is an automatic API documentation generation application for Python.
+
+Documentation is in "pdf" format.
+
+Documentation file of each question is named "Documentation" and can be found in the respective folder of the question.
+
+Requirements to create Documentation:
+
+1. Epydoc installed in terminal.
+
+Process to create Documentation of a question:
+
+1. Open terminal in the folder of a question.
+2. Use command (in terminal):
+	epydoc --pdf --name Documentation *
+
+
+Class Diagrams:
+
+Requirements:
+1. pylint installed in terminal (needed to use pyreverse).
+
+Process to create class diagram of a question:
+
+1. Open terminal in the folder of a question.
+2. Use command (in terminal):
+	pyreverse * -o jpg
+
+Notes:
+The above command will create two jpg files (class diagrams), one of classes and other of packages.
+
+In my pdf file for all the class dagrams of all the questions (i.e the file named "classDiagrams.pdf"), i have merged the two jpg files of each question into a single jpg file, and then i merged all the jpg files of all questions into a single pdf file.
