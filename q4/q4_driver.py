@@ -76,7 +76,7 @@ def allocate():
 	calculate_happiness(B, G, C)
 
 def calculate_happiness(B, G, C):
-	'reads and stores the inputs from the gifts.csv file and sorts the gifts in ascending order of price'
+	'reads and stores the inputs from the gifts.csv file and provide gift exchanges between the couples'
 	GFT = []
 	with open('gifts.csv', 'r') as csvfile:
 		reader = csv.reader(csvfile, delimiter = ',')
@@ -106,6 +106,7 @@ def calculate_happiness(B, G, C):
 	newallocate(B, G, C, k)
 
 def set_girl_happiness(c, v1, v2):
+	'sets the happiness of a girl according to her type'
 	if (c.girl.type == 'Choosy'):
 		c.girl.happiness = log10(v2)
 	elif (c.girl.type == 'Normal'):
@@ -114,7 +115,7 @@ def set_girl_happiness(c, v1, v2):
 		c.girl.happiness = exp(v1)
 
 def hp_miser(GFT, c):
-	'provides gifting logic for Miser type Boys and sets the Happiness of the commited Boy and Girl and the whole couple, also sets the Compatibility of the couple'
+	'provides gifting logic for Miser type Boys and sets the Happiness of the commited Boy and the whole couple, also sets the Compatibility of the couple'
 	v1 = 0
 	v2 = 0
 	for g in GFT:
@@ -134,7 +135,7 @@ def hp_miser(GFT, c):
 	c.set_compatibility()
 
 def hp_generous(GFT, c):
-	'provides gifting logic for Generous type Boys and sets the Happiness of the commited Boy and Girl and the whole couple, also sets the Compatibility of the couple'
+	'provides gifting logic for Generous type Boys and sets the Happiness of the commited Boy and the whole couple, also sets the Compatibility of the couple'
 	v1 = 0
 	v2 = 0
 	for g in GFT:
@@ -153,7 +154,7 @@ def hp_generous(GFT, c):
 	c.set_compatibility()
 
 def hp_geek(GFT, c):
-	'provides gifting logic for Geek type Boys and sets the Happiness of the commited Boy and Girl and the whole couple, also sets the Compatibility of the couple'
+	'provides gifting logic for Geek type Boys and sets the Happiness of the commited Boy and the whole couple, also sets the Compatibility of the couple'
 	v1 = 0
 	v2 = 0
 	for g in GFT:
@@ -211,7 +212,7 @@ def newallocate(B, G, C, k):
 	for r in R:
 		C.remove(r)
 
-   	print '\nCouples after Valentines Day(i.e. after breakups):\n'
+   	print '\nRemaining couples after Valentines Day(i.e. after breakups):\n'
 	for g in G:
 		if g.status == 'single':
 			print 'Girl: ' + g.name + '  is not commited to anyone'
