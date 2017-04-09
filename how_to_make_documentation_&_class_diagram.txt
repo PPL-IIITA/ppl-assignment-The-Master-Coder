@@ -16,6 +16,7 @@ Requirements to create Documentation:
 1. Epydoc installed in terminal.
 
 Command to install Epydoc in terminal:
+	sudo apt-get update
 	sudo apt-get install python-epydoc
 
 Process to create Documentation of a question:
