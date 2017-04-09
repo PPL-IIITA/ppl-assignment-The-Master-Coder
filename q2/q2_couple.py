@@ -18,4 +18,4 @@ class Couple:
 		a = self.boy.gfbudget - self.girl.mbudget
 		b = abs(self.boy.atr - self.girl.atr)
 		c = abs(self.boy.intelli - self.girl.intelli)
-		self.compatility = a+b+c
+		self.compatibility = a+b+c
