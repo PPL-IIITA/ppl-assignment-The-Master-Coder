@@ -31,4 +31,6 @@ Process to create class diagram of a question:
 Notes:
 The above command will create two jpg files (class diagrams), one of classes and other of packages.
 
-In my pdf file for all the class dagrams of all the questions (i.e the file named "classDiagrams.pdf"), i have merged the two jpg files of each question into a single jpg file, and then i merged all the jpg files of all questions into a single pdf file.
+In my pdf file for all the class dagrams of all the questions (i.e the file named "classDiagrams.pdf"), i have merged 
+the two jpg files of each question into a single jpg file, and then i merged all the jpg files of all questions 
+into a single pdf file.
