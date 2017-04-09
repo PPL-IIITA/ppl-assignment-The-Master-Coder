@@ -6,9 +6,6 @@ Requirements:
 
 Question 1:
 
-INPUT:
-No input required.
-
 OUTPUT:
 Couples formed on Valentines day (without using Inheritance).
 
@@ -21,10 +18,6 @@ Process to run program:
 
 Question 2:
 
-INPUT:
-No input required.
-
-Internal processes:
 k is chosen randomly from the total number of couples formed.
 
 OUTPUT:
@@ -42,10 +35,6 @@ Process to run program:
 
 Question 3:
 
-INPUT:
-same as Question 2.
-
-Internal processes:
 same as Question 2, but done using inheritance.
 
 OUTPUT:
@@ -60,10 +49,6 @@ Process to run program:
 
 Question 4:
 
-INPUT:
-No input required.
-
-Internal processes:
 Value of k is chosen randomly from the total number of couples formed.
 
 OUTPUT:
@@ -81,10 +66,6 @@ Process to run program:
 
 Question 5:
 
-INPUT:
-No input required.
-
-Internal processes:
 Value of k is chosen randomly from the range of total number of couples formed.
 
 OUTPUT:
@@ -100,10 +81,6 @@ Process to run program:
 
 Question 6:
 
-INPUT:
-No input required.
-
-Internal processes:
 Value of t is randomly chosen from a range.
 
 OUTPUT:
@@ -124,11 +101,7 @@ Process to run program:
 
 Question 7:
 
-INPUT:
-Input is required.
-Allocator method implementation from a given list of three choices.
-
-Internal processes:
+Allocator method implementation is chosen randomly from a given list of three choices.
 Value of k is chosen randomly from the range of total number of boys.
 k boys are selected randomly from the list of all boys.
 
@@ -147,11 +120,7 @@ Process to run program:
 
 Question 8:
 
-INPUT:
-Input is required.
-Gifting method implementation from a given list of two choices.
-
-Internal processes:
+Gifting method implementation is chosen randomly from a given list of two choices.
 Value of k is chosen randomly from the range of total number of couples formed.
 
 OUTPUT:
@@ -169,10 +138,6 @@ Process to run program:
 
 Question 9:
 
-INPUT:
-No input required.
-
-Internal processes:
 Value of k is chosen randomly from the range of total number of a given type of items, appropriately
 (for example a list of boys or a list of gifts or a list of couples).
 Girls chooses a boy as boyfriend from the list of k best boys (having higher value of girlfriend budget).
@@ -194,10 +159,6 @@ Process to run program:
 
 Question 10:
 
-INPUT:
-No input required.
-
-Internal processes:
 Value of k is chosen randomly from the range of total number of items of a given type, appropriately
 (for example a list of boys or a list of gifts or a list of couples).
 Value of n is taken as the total number of items of a given type, appropriately.
