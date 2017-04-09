@@ -19,6 +19,7 @@ Command to install Epydoc in terminal:
 	sudo apt-get install python-epydoc
 
 Process to create Documentation of a question:
+*** NOTE: Before generating Documentation for a question, remove all ".pyc", ".csv" and ".txt" files from the folder of that question, to avoid any warnings/errors. ***
 
 1. Open terminal in the folder of a question.
 2. Use command (in terminal):
@@ -35,6 +36,7 @@ Command to install pylint:
 	sudo apt-get install pylint 
 
 Process to create class diagram of a question:
+*** NOTE: Before generating class diagram for a question, remove all ".pyc", ".csv" and ".txt" files from the folder of that question, to avoid any warnings/errors. ***
 
 1. Open terminal in the folder of a question.
 2. Use command (in terminal):
