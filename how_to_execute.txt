@@ -173,7 +173,8 @@ INPUT:
 No input required.
 
 Internal processes:
-Value of k is chosen randomly from the range of total number of a given type of items, appropriately(for example a list of boys or a list of gifts or a list of couples).
+Value of k is chosen randomly from the range of total number of a given type of items, appropriately
+(for example a list of boys or a list of gifts or a list of couples).
 Girls chooses a boy as boyfriend from the list of k best boys (having higher value of girlfriend budget).
 Boys picks up a gift from the list of k best gifts (having higher gift value).
 Both the above lists are generated using the "best_k" method defined in the file "q9_driver.py".
@@ -197,7 +198,8 @@ INPUT:
 No input required.
 
 Internal processes:
-Value of k is chosen randomly from the range of total number of items of a given type, appropriately(for example a list of boys or a list of gifts or a list of couples).
+Value of k is chosen randomly from the range of total number of items of a given type, appropriately
+(for example a list of boys or a list of gifts or a list of couples).
 Value of n is taken as the total number of items of a given type, appropriately.
 Girls chooses a boy as boyfriend from the list of k random boys taken from n best boys(having higher value of girlfriend budget).
 Boys picks up a gift from the list of k random gifts taken from n best best gifts (having higher gift value).
