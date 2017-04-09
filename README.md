@@ -12,7 +12,7 @@ ppl-assignment-The-Master-Coder created by GitHub Classroom <br />
 ## Requirements:
 >**python 2.7.12 in terminal**
 
-## Command for Terminal in Linux:
+## Command for Ubuntu/Linux:
 Note: All the codes submitted are tested on Python 2.7.12 only
 >**python q1_driver.py      (in folder q1, for Question 1)<br />
 >python q2_driver.py      (in folder q2, for Question 2)<br />
