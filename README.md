@@ -29,10 +29,10 @@ Note: All the codes submitted are tested on Python 2.7.12 only
 >The page number 'x' in the file classDiagrams.pdf corresponds to the class diagram of the question number 'x'**.
 
 ## Documentation:
->** Documentation of each question is done separately.<br />
->To open Documentation of a Question:<br />
->1. Open the folder of that question, and in that folder go to the folder named "*Documentation*".<br />
->2. Open "*index.html*" in a browser **.
+>**Documentation of each question is done separately.<br />
+>To open Documentation of a Question:<br />**
+>**1. Open the folder of that question, and in that folder go to the folder named "*Documentation*".<br />
+>2. Open "*index.html*" in a browser**.
 
 ## Tools used:
 >***Sublime text* for code writing & editing. <br />
