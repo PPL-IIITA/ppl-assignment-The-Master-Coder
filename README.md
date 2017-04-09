@@ -1,6 +1,7 @@
 # ppl-assignment-The-Master-Coder
 ppl-assignment-The-Master-Coder created by GitHub Classroom <br />
 # Abhishek Pasi  (**ICM2015002**)
+## Section - B
 
 <img src="https://img.shields.io/badge/language-Python 2.7.12-brightgreen.svg"/> <img src="https://raw.githubusercontent.com/rhoit/mode-icons/dump/icons/python.png"/>
 
