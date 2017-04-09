@@ -2,25 +2,37 @@ Documentation:
 
 Documentation is created using "Epydoc" version 3.0.1, which is an automatic API documentation generation application for Python.
 
-Documentation is in "pdf" format.
+Documentation is in "html" format.
 
-Documentation file of each question is named "Documentation" and can be found in the respective folder of the question.
+Documentation of each question is done separately.
+
+To open Documentation of a Question:
+
+1. Open the folder of that question, and in that folder go to the folder named "Documentation".
+2. Open "index.html" in a browser.
 
 Requirements to create Documentation:
 
 1. Epydoc installed in terminal.
 
+Command to install Epydoc in terminal:
+	sudo apt-get install python-epydoc
+
 Process to create Documentation of a question:
 
 1. Open terminal in the folder of a question.
 2. Use command (in terminal):
-	epydoc --pdf --name Documentation *
+	epydoc --html -o DOCUMENTATION --name <question-name> *
 
 
 Class Diagrams:
 
 Requirements:
 1. pylint installed in terminal (needed to use pyreverse).
+
+Command to install pylint:
+	sudo apt-get update
+	sudo apt-get install pylint 
 
 Process to create class diagram of a question:
 
